@@ -1,11 +1,13 @@
 /* 
     Construir una funcion que reciba un string o una oracion y verifique que el primer y ultimo caracter sean vocales y sean la misma vocal 
-    de ser corrcto retorna true, en caso contrario retorna falso
+    de ser correcto retorna true, en caso contrario retorna false
 
     Ejemplos: 
         Input "Hola a todos"     output: false
         Input "Ahora nada"       output: true
 */
+
+//? V 1.0
 
 /* const regexVar = (s) => {
   const vocals = /^[aeiou]/;
