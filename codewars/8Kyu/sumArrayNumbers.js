@@ -20,5 +20,4 @@ const sumMix = (arr) => {
 };
 
 console.log(sumMix([3, 3, 3]));
-console.log(sumMix([3, 3, 3, 12, 43, 2, 43]));
 console.log(sumMix([3, "tres", 3]));
