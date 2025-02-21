@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Convertidor de binarios</title>
+
+        <script src="main.js"></script>
+
+    <!--* ----------------------------E S T I L O S------------------------------ -->
+        <style>
+
+            .respuesta {
+                width: 20%;
+                height: 20px;
+                border: 2px solid black;
+                margin-top: 20px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+    <!--* ---------------- B I N A R I O   A   D E C I M A L ------------------------ -->
+
+        <h1>Convertidor de binarios a decimales</h1>
+        <form id="binarioForm">
+            <label for="numerobinario">Ingresa el numero binario</label>
+            <input id="numerobinario" type="text">
+            <input type="submit" id="binarioADecimal" value="Convertir">
+        </form>
+            <p>Numero decimal:</p>
+            <div class="respuesta" id="respuesta1" ></div>
+
+<hr>
+    <!--* ---------------- D E C I M A L   A   B I N A R I O  ------------------------ -->        
+
+    <h1>Convertidor de decimales a binarios</h1>
+    <form id="decimalForm">
+        <label for="numerodecimal">Ingresa el numero decimal</label>
+        <input id="numerodecimal" type="text">
+        <input type="submit" id="decimalabinario" value="Convertir">
+    </form>
+        <p>Numero binario:</p>
+        <div class="respuesta" id="respuesta2"></div>
+
+    </body>
+
+</html>
